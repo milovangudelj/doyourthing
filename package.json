@@ -1,0 +1,29 @@
+{
+	"name": "doyourthing",
+	"version": "0.1.0",
+	"description": "Fresh OS installs have never been easier",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"dyt": "./index.js",
+		"doyourthing": "./index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ilikemartians/doyourthing.git"
+	},
+	"author": "Milovan Gudelj",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ilikemartians/doyourthing/issues"
+	},
+	"homepage": "https://github.com/ilikemartians/doyourthing#readme",
+	"dependencies": {
+		"chalk": "^5.0.1",
+		"commander": "^9.4.0",
+		"conf": "^10.2.0"
+	}
+}
