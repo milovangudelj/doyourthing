@@ -1,4 +1,5 @@
-#! /usr/bin/env node
+#! /usr/bin/env -S node --no-warnings
+
 import { program } from "commander";
 
 // Commands

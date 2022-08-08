@@ -2,14 +2,14 @@
 	"name": "doyourthing",
 	"version": "0.1.0",
 	"description": "Fresh OS installs have never been easier",
-	"main": "index.js",
+	"main": "./dist/index.js",
 	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"bin": {
-		"dyt": "./index.js",
-		"doyourthing": "./index.js"
+		"dyt": "./dist/index.js",
+		"doyourthing": "./dist/index.js"
 	},
 	"repository": {
 		"type": "git",
@@ -25,5 +25,11 @@
 		"chalk": "^5.0.1",
 		"commander": "^9.4.0",
 		"conf": "^10.2.0"
+	},
+	"devDependencies": {
+		"@swc/cli": "^0.1.57",
+		"@swc/core": "^1.2.224",
+		"tsc-watch": "^5.0.3",
+		"typescript": "^4.7.4"
 	}
 }
