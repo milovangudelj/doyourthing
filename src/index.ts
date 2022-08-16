@@ -19,7 +19,10 @@ program
 	)
 	.action(dyt);
 
+// Sign In command
 program.command("signin").description("Sign in to your account").action(signin);
+
+// Sign Out command
 program
 	.command("signout")
 	.description("Sign out form your account")
